@@ -1,0 +1,56 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 18 and seed 5922093980592951107 with 1 worker on 8 cores with 3641MB heap and 64MB offheap memory [pid: 88788] (Mac OS X 14.5 aarch64, Homebrew 21.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/dnh/Desktop/2024-learn-tla/VSCode_examples/1_print_expr/mc_print_expr.tla
+Parsing file /private/var/folders/p5/hwv58h895cldwtff7dhylby40000gn/T/TLC.tla
+Parsing file /Users/dnh/Desktop/2024-learn-tla/VSCode_examples/1_print_expr/print_expr.tla
+Parsing file /private/var/folders/p5/hwv58h895cldwtff7dhylby40000gn/T/Naturals.tla
+Parsing file /private/var/folders/p5/hwv58h895cldwtff7dhylby40000gn/T/Sequences.tla
+Parsing file /private/var/folders/p5/hwv58h895cldwtff7dhylby40000gn/T/FiniteSets.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module print_expr
+Semantic processing of module mc_print_expr
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-07-26 13:56:26)
+@!@!@ENDMSG 2185 @!@!@
+"Project Architecture:"
+"MC File extends main file and queries it"
+" Use multiple MC files to set different parameters in the code"
+" OK to check a model with no SPEC"
+<<"MODEL CHECK SCRIPT: ", "mc_print_expr">>
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 0 distinct states generated at 2024-07-26 13:56:26.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(1) at 2024-07-26 13:56:26: 0 states generated (0 s/min), 0 distinct states found (0 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+0 states generated, 0 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 1.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 249ms at (2024-07-26 13:56:26)
+@!@!@ENDMSG 2186 @!@!@

@@ -1,0 +1,40 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 4 and seed -6829425038451064211 with 1 worker on 8 cores with 3641MB heap and 64MB offheap memory [pid: 87617] (Mac OS X 14.5 aarch64, Homebrew 21.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/dnh/Desktop/2024-learn-tla/VSCode_examples/1_print_expr/print_expr.tla
+***Parse Error***
+Was expecting "==== or more Module body"
+Encountered "=" at line 6, column 14 and token "module_name" 
+
+Residual stack trace follows:
+Module definition starting at line 2, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file print_expr
+
+tla2sany.semantic.AbortException
+*** Abort messages: 1
+
+In module print_expr
+
+Could not parse module print_expr from file print_expr.tla
+
+
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2024-07-26 13:53:55)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 3002:1 @!@!@
+Parsing or semantic analysis failed.
+@!@!@ENDMSG 3002 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 137ms at (2024-07-26 13:53:55)
+@!@!@ENDMSG 2186 @!@!@
